@@ -2,7 +2,7 @@
 #include <stdlib.h>  
 #include <time.h>
 
-void populate(int *A, int *B, int *C,int n , int m){
+void populate(int **A, int **B, int **C,int n , int m){
     int num, i;  
     time_t t1;
     srand ( (unsigned) time (&t1));
